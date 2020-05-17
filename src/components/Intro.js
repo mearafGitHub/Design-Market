@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Title from './Title'
 import Paragraf from './Paragraph'
-import Footer from './Footer'
 import {CircleButton} from './Button'
 
 export default class Intro extends Component {

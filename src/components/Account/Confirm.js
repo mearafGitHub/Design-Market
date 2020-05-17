@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider'
-import {FormButton} from './Button'
-import { Form } from './Form'
+import {FormButton} from '../Button'
+import { Form } from '../Form'
 import styled from 'styled-components'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
+import { Link } from 'react-router-dom'
 
 
 export default class Confirm extends Component {
@@ -75,6 +76,16 @@ export default class Confirm extends Component {
                                         secondaryText={bio} >
                                         <h6 className="text-blue">Bio: </h6> 
                                         <h5 className="text-bright"> {bio}</h5>
+                                    </ListItem>
+
+                                    <ListItem>
+                                        <h6 className="text-bright">
+                                        Agreed in terms and policy
+                                        <span className="mx-2">
+                                        <Link to="/terms-and-policy">Learn more.
+                                        </Link>
+                                        </span>
+                                        </h6> 
                                     </ListItem>
 
                                     <div className="createAccount row">

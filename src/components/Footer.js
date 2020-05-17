@@ -6,9 +6,9 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from 'reac
 export default class Footer extends Component {
     render() {
         return (
-                <FooterWrapper className="footer footer-expand-lg footer-dark px-sm-6 mb-0">
+                <FooterWrapper className="footer footer-dark px-sm-6 mb-0 align-self-bottom">
                 <div className="row align-self-center d-flex mx-auto px-5 py-5">
-                <div className="align-items-center mx-auto d-inline-flex">
+                    <div className="align-items-center mx-auto d-inline-flex">
                         <FaFacebook className="mx-3"/> 
                         <FaTwitter className="mx-3"/> 
                         <FaInstagram className="mx-3"/>

@@ -34,8 +34,8 @@ body{
   color: var(--coolBlue);
 }
 .AppNameText{
-  color: var(--coolWhite);
-  letter-spacing: 0.8;
+  color: var(--coolBlue);
+  letter-spacing: 0.9;
   display: flex;
   font-family: cursive;
   font-weight: bolder;
@@ -47,7 +47,8 @@ body{
 }
 .form-title-success{
   flex-direction: column;
-  align-items: center;
+  align-self: center;
+  font-weight: boldr;
   padding: 0.5rem 0.5rem;
   margin: 0.9rem 0.3rem;
   color: var(--coolGreen);
@@ -111,6 +112,7 @@ input.error{
 .lastName,
 .email,
 .password,
+.agreement,
 .occupation,
 .city,
 .bio,
@@ -143,12 +145,21 @@ input.error{
 .email,
 .password,
 .bio,
+.agreement,
 .emailInput,
 .passwordInput,
 .bioInput
 {
   width: 100%;
 }  
+.agreement{
+  padding:0.3rem;
+  margin-top:1rem;
+  width: 100%;
+}
+.agreementInput{
+  margin: 0.2rem;
+}
 .errorMessage{
   color: var(--coolRed);
   display: relative;

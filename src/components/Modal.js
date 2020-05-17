@@ -54,6 +54,7 @@ const ModalContainer = styled.div`
     bottom:0;
     background:rgba(0,0,0,0.3);
     display: flex;
+    border-radius: 3rem;
     algin-items: center;
     justify-content:center;
     #modal{

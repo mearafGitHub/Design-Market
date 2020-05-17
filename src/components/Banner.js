@@ -21,7 +21,7 @@ export default class Banner extends Component {
 }
 
 const HeadeWrapper = styled.header`
-    background: var(--lightBlue);
+    background: var(--coolWhite);
     height: 100vh;
     width: 100%;
     display: flex;

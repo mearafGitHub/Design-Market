@@ -154,7 +154,23 @@ export class FormUserDetails extends Component {
                 <span className="error-message" >{formErrors.passwordError}</span>
             )}
             </div> 
+            <div >
+            <label className = "agreement text-blue" >
+            <input type = "radio"
+                className = "agreementInput"
+                value = "agreement"
+                name = "agreement"
+                checked={true}
+                onChange = { this.handleChange }
+            /> 
+            {formErrors.passwordError.length > 0 && (
+                <span className="error-message" >{formErrors.passwordError}</span>
+            )}
+            Agree in the <span><Link to="/terms-and-policy">Terms and Policy. Learn more.</Link></span>
+            </label>
+            </div>
             <div className = "createAccount" >
+            
             <small >
             <Link className = "nav-item ml-auto"
             to = "/login">

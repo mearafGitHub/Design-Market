@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { FormButton } from './Button'
-import { Form } from './Form'
+import { FormButton } from '../Button'
+import { Form } from '../Form'
 import {Link} from 'react-router-dom'
-import PublicNav from './PublicNav'
+import PublicNav from '../PublicNav'
 
 export default class Login extends Component {
     

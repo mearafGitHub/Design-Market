@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import {ShowCaseContextConsumer} from '../ShowCaseContext'
 import {Link} from 'react-router-dom'
-import {FormButton, CardButton} from './Button'
+import {FormButton, MyCartButton} from './Button'
 import Title from './Title'
+import {FaCartPlus} from 'react-icons/fa'
 
 export default class Details extends Component {
     render() {
@@ -48,17 +49,17 @@ export default class Details extends Component {
                                     {info}
                                 </p>
                                 <Link to="/">
-                                    <FormButton>Back</FormButton>
+                                    <FormButton>Market</FormButton>
                                 </Link>
-                                <CardButton 
+                                    <MyCartButton 
                                     disabled={inCart?true:false}
                                     onClick={()=>{
                                         value.addToCart(id);
                                         value.openModal(id);
                                     }}
-                                >
-                                {inCart ? "incart" : "add to cart"}
-                                </CardButton>
+                                    >
+                                     {inCart ? "incart" : (<FaCartPlus/>)}
+                                    </MyCartButton>
                             </div>
                             </div>
                        </div>

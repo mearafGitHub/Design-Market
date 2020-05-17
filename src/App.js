@@ -8,7 +8,7 @@ import DesignList from './components/DesignList'
 import Default from './components/Default'
 import Cart from './components/Cart/Cart'
 import Modal from './components/Modal'
-import Login from './components/Login'
+import Login from './components/Account/Login'
 import Intro from './components/Intro'
 import UserForm from './components/Account/UserForm';
 import PublicPage from './components/PublicPage'

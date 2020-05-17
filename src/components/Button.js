@@ -6,17 +6,17 @@ export const ButtonContainer = styled.button`
     background: transparent;
     border: 0.01rem solid var(--coolWhite);
     border-radius: 5rem;
-    color: var(--mainWhite);
+    color: var(--coolBlue);
     padding-left: 1.24rem;
     padding-right: 1.24rem;
     cursor: pointer;
     margin:1.2rem 0.5rem 1.2rem 0.5rem; 
-    box-shadow: 0.0rem 0.0rem 0.4rem var(--coolGrey);  
+    box-shadow: 0.0rem 0.0rem 0.4rem var(--lightBlue);  
     transition: all 0.53s ease-in-out;
     &:hover{
-        background: var(--mainYellow);
+        background: var(--lightBlue);
         color: var(--coolWhite);
-        box-shadow: 0.2rem 0.2rem 0.8rem var(--mainYellow);
+        box-shadow: 0.0rem 0.0rem 0.3rem var(--lightBlue);
     }
     &:focus{
         outline:none;
@@ -26,13 +26,15 @@ export const ButtonContainer = styled.button`
 
 export const FormButton = styled.button`
     text-transform: capitalize;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     background: transparent;
-    border: 0.09rem solid var(--coolBlue);
+    border: 0.03rem solid var(--coolBlue);
     border-radius: 3.9rem;
     color: var(--coolBlue);
     padding-left: 1.24rem;
     padding-right: 1.24rem;
+    margin-left: 1.24rem;
+    margin-right: 1.24rem;
     cursor: pointer;
     margin:1.2rem 0.5rem 1.2rem 0.5rem;   
     transition: all 0.53s ease-in-out;
@@ -51,15 +53,15 @@ export const FormButton = styled.button`
 export const MyCartButton = styled.button`
     text-transform: capitalize;
     font-size: 1.2rem;
-    background: var(--lightGreen);
+    background: var(--coolBlue);
     color: var(--coolWhite);
     padding-left: 1.24rem;
     padding-right: 1.24rem;
     cursor: pointer; 
-    border-radius: 0rem 5rem 5rem 5rem;
-    border: 0.03rem solid var(--lightGreen);
+    border-radius: 5rem 5rem 5rem 5rem;
+    border: 0.03rem solid var(--coolBlue);
     transition: all 0.44s ease-in-out;
-    box-shadow: 0.0rem 0.0rem 0.3rem var(--lightGreen);
+    box-shadow: 0.0rem 0.0rem 0.3rem var(--coolBlue);
     &:hover{
         background: var(--mainYellow);
         color: var(--coolWhite);
@@ -125,8 +127,8 @@ export const LogoutButton = styled.button`
     font-size: 1.2rem;
     background: var(--lightGreen);
     color: var(--coolWhite);
-    padding-left: 1.24rem;
-    padding-right: 1.24rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     cursor: pointer; 
     border-radius: 5rem 5rem 0rem 5rem;
     border: 0.03rem solid var(--lightGreen);
@@ -168,6 +170,7 @@ export const RedButton = styled.button`
         outline:none;
     }
 `  
+
 export const CircleButton = styled.button`
     text-transform: capitalize;
     font-size: 0.8rem !important;
@@ -180,7 +183,7 @@ export const CircleButton = styled.button`
     cursor: pointer;
     margin:1.2rem 0.5rem 1.2rem 0.5rem;   
     transition: all 0.53s ease-in-out;
-    box-shadow: 0.0rem 0.0rem 0.3rem var(--coolGrey);
+    box-shadow: 0.0rem 0.0rem 0.5rem var(--coolGrey);
     &:hover{
         background: var(--coolBlue);
         color: var(--coolWhite);

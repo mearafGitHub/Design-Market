@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { ButtonContainer } from './Button'
-import { FaCartPlus } from 'react-icons/fa';
+import { FaInfoCircle } from 'react-icons/fa';
 
 export default class PublicNav extends Component {
     render() {
@@ -15,10 +15,10 @@ export default class PublicNav extends Component {
                             </Link>
                         </li>
                     </ul>        
-                    <Link to="/cart" className="nav-item ml-auto">
+                    <Link to="/" className="nav-item ml-auto">
                         <ButtonContainer>
                             <span className ="mr-2">
-                                <FaCartPlus />
+                                <FaInfoCircle />
                             </span> 
                             info   
                         </ButtonContainer>
@@ -28,7 +28,8 @@ export default class PublicNav extends Component {
     }
 }
 const NavWrapper = styled.nav`
-    background: var(--lightBlue);
+    background: var(--coolWhite);
+    box-shadow: 0.0rem 0.05rem 0.9rem var(--lightBlue);
     .nav-link{
         color: var(--coolBlue) !important;
         font-size: 1.3rem;
