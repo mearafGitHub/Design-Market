@@ -4,9 +4,9 @@ export const ButtonContainer = styled.button`
     text-transform: capitalize;
     font-size: 1.2rem;
     background: transparent;
-    border: 0.01rem solid var(--coolWhite);
+    border: 0.03rem solid var(--lightBlue);
     border-radius: 5rem;
-    color: var(--coolBlue);
+    color: var(--lightBlue);
     padding-left: 1.24rem;
     padding-right: 1.24rem;
     cursor: pointer;

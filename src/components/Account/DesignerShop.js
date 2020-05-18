@@ -8,8 +8,8 @@ export default class DesignerShop extends Component {
         return (
             <Shop>
                 <div className="navbar navbar-sm">
-                    <div className="align-self-center mx-auto">
-                        <img className="img-fluid" src="img/online_shopping.png" alt="coverPicture" /> 
+                    <div className="cover align-self-center mx-auto">
+                        <img className="img-fluid" src="img/codeforjob.png" alt="coverPicture" /> 
                     </div> 
                 </div>
                 <div className="row align-self-center d-flex mx-auto px-5">
@@ -73,7 +73,7 @@ export default class DesignerShop extends Component {
                                     Upload</CircleButton>
                                     </span>
                                     </h7>
-                                    <h6 className=" px-2" className=" px-2">Set Price:
+                                    <h6 className=" px-2" className="px-2">Set Price:
                                     <span>
                                     <input type="number" placeholder="0" className="pirceInput px-2"/>
                                     </span>
@@ -125,6 +125,9 @@ const Shop = styled.div`
     position: relative;
     overflow: hidden;
     margin:0.4rem;
+}
+.cover{
+    height: 20rem;
 }
 .text-white{
     align-self-center;

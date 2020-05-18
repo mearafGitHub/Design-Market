@@ -34,7 +34,7 @@ body{
   color: var(--lightBlue);
 }
 .AppNameText{
-  color: var(--coolBlue);
+  color: var(--lightBlue);
   letter-spacing: 0.9;
   display: flex;
   font-family: cursive;
