@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Switch,Route} from 'react-router-dom'
-import 'react-google-font-loader'
+import { Switch,Route} from 'react-router-dom';
+import 'react-google-font-loader';
+import 'react-icons/fa';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import DetailPage from './components/DetailPage'
@@ -10,8 +11,11 @@ import Cart from './components/Cart/Cart'
 import Modal from './components/Modal'
 import Login from './components/Account/Login'
 import Intro from './components/Intro'
-import UserForm from './components/Account/UserForm';
+import Terms from './components/Terms'
+import UserForm from './components/Account/UserForm'
 import PublicPage from './components/PublicPage'
+import DesignerShop from './components/Account/DesignerShop'
+import AdminDashBoard from './components/Account/AdminDashBoard'
 
 
 class App extends Component {
@@ -26,7 +30,10 @@ class App extends Component {
                     <Route path="/login" component={Login} />
                     <Route path="/cart" component={Cart}/>  
                     <Route path="/intro" component={Intro}/>  
+                    <Route path="/terms-and-policy" component={Terms}/> 
                     <Route path="/form" component={UserForm}/>
+                    <Route path="/dash-board-admin" component={AdminDashBoard}/>  
+                    <Route path="/designer-shop" component={DesignerShop}/> 
                     <Route component={Default}/> 
                 </Switch>
                 <Modal />

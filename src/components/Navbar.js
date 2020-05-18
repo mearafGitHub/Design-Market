@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import CustumButton from './CustumButton'
 import { MyCartButton, LogoutButton } from './Button'
 import { FaDoorOpen, FaCartPlus } from 'react-icons/fa';
 
@@ -30,6 +31,7 @@ export default class Navbar extends Component {
                             </span>  
                         </LogoutButton>
                     </Link>
+                    
             </NavWrapper>
         );
     }

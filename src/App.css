@@ -31,7 +31,7 @@ body{
   color: var(--mainBlue);
 }
 .text-bright{
-  color: var(--coolBlue);
+  color: var(--lightBlue);
 }
 .AppNameText{
   color: var(--coolBlue);
@@ -39,8 +39,7 @@ body{
   display: flex;
   font-family: cursive;
   font-weight: bolder;
-  text-transform: uppercase;
-  
+  text-transform: uppercase; 
 }
 .AppNameText:hover{
   color: var(--coolBlue);
@@ -53,7 +52,6 @@ body{
   margin: 0.9rem 0.3rem;
   color: var(--coolGreen);
 }
-
 .wrapper{
   height: 42.2rem;
   width: 100%;

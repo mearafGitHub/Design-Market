@@ -30,7 +30,7 @@ export default class Details extends Component {
                                 </div>   
                             
                             {/*end title*/}
-                            {/* desing detail info*/}
+                            {/*detail info*/}
                             <div className="col-8 mx-auto col-md-5 my-3" >
                                 <img src={img} className="img-fluid" alt="Design"/>
                             </div>

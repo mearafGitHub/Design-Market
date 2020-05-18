@@ -3,13 +3,16 @@ import styled from 'styled-components'
 import Title from './Title'
 import Paragraf from './Paragraph'
 import {CircleButton} from './Button'
+import PublicNav from './PublicNav'
+
 
 export default class Intro extends Component {
     render() {
         return (
             <React.Fragment>
             <Explain>
-                <Title className="title align-middle" name="getting" title="started" />
+            <PublicNav/>
+                <Title className="title align-middle" name="Terms and policy" title="" />
                 <div className="row align-self-center d-flex mx-auto px-5">
                     <div className="align-self-center mx-auto">
                         <CircleButton>About Us</CircleButton> 
@@ -23,7 +26,7 @@ export default class Intro extends Component {
                 <div className="explain mx-auto">
                 <div className="row align-content-center mx-auto">
                
-                    <div className="col-8">
+                    <div className="col-8 ">
                     <div className="card my-3">
                         <h2 className="text-bright"> Purchaser Account Demo</h2>
                         <Paragraf
@@ -63,6 +66,7 @@ export default class Intro extends Component {
                 </div>
                 </div>
             </div> 
+            
         </Explain>
         </React.Fragment>
         )
@@ -79,8 +83,7 @@ const Explain = styled.section`
 .card{
     align-self:center;
     align-items:center;
-    padding-top: 1.8rem;
-    padding-bottom:1.8rem;
+    padding: 1.5rem 1.5rem;
     border: transparent;
     background: var(--mainWhite);
     box-shadow: 0.0rem 0.05rem 0.9rem var(--coolGrey);

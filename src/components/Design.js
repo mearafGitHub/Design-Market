@@ -34,7 +34,7 @@ export default class Design extends Component {
                             )}
                         </CardButton>
 
-                        <Link to="/vendershop">
+                        <Link to="/designer-shop">
                             <CardButtonBlue className="card-btn-one">
                                 <FaMapMarked />
                              </CardButtonBlue>
